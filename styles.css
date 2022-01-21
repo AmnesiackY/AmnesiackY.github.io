@@ -1,6 +1,6 @@
 html{
     background-image: url(media/background-image.jpg);
-    cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53, url(http://pirate-islands.com/wp-content/uploads/2016/08/navCursor-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.ico);
+    cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53;
     font-size: 1em;	/* 16px */
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
@@ -14,7 +14,7 @@ body {
 	color: #555;
 	background: #fff;
 	padding: 0;
-	cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53, url(http://pirate-islands.com/wp-content/uploads/2016/08/navCursor-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.ico), default;
+	cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53,  default;
 }
 
 #main {
@@ -23,17 +23,6 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-.page-template-fullwidth #content { width: 100%; }
-#content {
-	float: left;
-	width: 68.08510638297872%;
-	margin: 0 0 30px 0;
-	min-height: 180px;
-}
-#sidebar-primary {
-	float: right;
-	width: 27.65957446808511%;
-}
 .wrap {
 	
 	background-color: #000000;
@@ -41,15 +30,6 @@ body {
 	max-width: 940px;   
 	margin: 0 auto;
 	position: relative;
-}
-#comments-template { clear: left; }
-#sidebar-subsidiary {
-	overflow: visible;
-	width: 100%;
-	margin: 30px auto 0 auto;
-	padding: 0px 0 0 0;
-	border-top: 0px solid #444;
-	clear: both;
 }
 #footer {
 	overflow: hidden;
