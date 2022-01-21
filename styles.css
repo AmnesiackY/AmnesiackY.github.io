@@ -1,3 +1,4 @@
-canvas {
-    cursor: url(sword.png) 53 53, crosshair;
+body {
+    background-image: url(https://amnesiacky.github.io/media/background-image);
+    cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53, crosshair;
 }
