@@ -1,6 +1,6 @@
 html{
     background-image: url(media/background-image.jpg);
-    cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53;
+    cursor: url(https://amnesiacky.github.io/media/navcursor.ico),url(https://amnesiacky.github.io/media/sword.png) 53 53;
     font-size: 1em;	/* 16px */
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
@@ -14,7 +14,7 @@ body {
 	color: #555;
 	background: #fff;
 	padding: 0;
-	cursor: url(https://amnesiacky.github.io/media/sword.png) 53 53,  default;
+	cursor: url(https://amnesiacky.github.io/media/navcursor.ico),url(https://amnesiacky.github.io/media/sword.png) 53 53,  default;
 }
 
 #main {
