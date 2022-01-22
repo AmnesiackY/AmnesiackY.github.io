@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=rus>
+<html lang="ru">
 
 <head>
 	<title>About Us</title>
@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap.bundle.min.js">
 	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -19,40 +21,61 @@
 							<img height="150" width="150" class = "logo" src="https://amnesiacky.github.io/media/QA Pirates Logo.png" alt="QA Pirates">
 						</a>
 					</h1>	
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+						  <li class="breadcrumb-item"><a href="https://amnesiacky.github.io">Home</a></li>
+						  <li class="breadcrumb-item active" aria-current="page">About Us</li>
+						</ol>
+					</nav>
 				</div>
 				<div id="menu-primary" class="menu-container">
 					<div class="menu">
-						<ul id="menu-primary-items" class="sf-js-enabled">
-							<li id="menu-item-1" class="menu-home">
-								<a title="Главная" href="https://amnesiacky.github.io" aria-current="page">Главная</a>
-							</li>
-							<li>
-								<a title="О нас" href="https://amnesiacky.github.io/AboutUs" aria-current="page">О нас</a>
-							</li>
-							<li>
-								<a title="Контакты" href="https://amnesiacky.github.io/Contacts" aria-current="page">Контакты</a>
-							</li>
-						</ul>
+						<nav class="nav flex-column">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">About Us</a>
+						  </nav>
 					</div>
 				</div>
 				<h2 id="site-description">
 					<span>Этот сайт захватили QA Pirate's! Всем оставаться на своих бочках и мы никого не тронем!</span>
 				</h2>
+			</div>	 
+			<div id="main">
+				<hr>
+				<div id="content">
+					<div class="hfeed">
+						<p>
+					</div>
+					<div class="pagination">
+
+					</div>
+				</div>
+				<div id="sidebr-primary">
+					
+				</div>
 			</div>
-			<hr>
-			<div id="body">
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb">
-					  <li class="breadcrumb-item"><a href="https://amnesiacky.github.io">Home</a></li>
-					  <li class="breadcrumb-item active" aria-current="page">About Us</li>
-					</ol>
-				</nav>
-			</div>
-			<hr >
 			<div id="footer">
 				
 			</div>
 		</div>
 	</div>
+	<style>
+		body {
+			padding-top: 100px;
+			background-image: url(media/background-img.jpg);
+			background-attachment: scroll;
+			background-repeat: no-repeat;
+			background-position: top center;
+		}
+		canvas {
+    		cursor: url(/media/navCursor.ico) 53 53, crosshair;
+		}	
+		html{
+			background-image: url(media/background-img.jpg);
+			background-attachment: scroll;
+			background-repeat: no-repeat;
+			background-position: top center;
+		}	
+	</style>
 </body>
 </html>
