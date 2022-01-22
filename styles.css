@@ -58,6 +58,9 @@ body {
 	border-bottom: none;
 }
 #header img { max-width: 100%; }
+.selector-for-some-widget {
+	box-sizing: content-box;
+  }
 #site-description {
 	font-size: 1.846153em;	/* 24 / 13 = 1.846153 */
 	font-family: Neucha, arial, sans-serif;
