@@ -88,48 +88,6 @@ body {
 	margin: 0 0 30px 0;
 }
 .breadcrumb-trail { padding: 1px 1.086956521739%; }
-#menu-primary {
-	font-size: 12px;
-	font-family: Lucida Sans Unicode, serif;;
-	width: 40%;
-	margin: 30px 0 12px 0;
-	float: right;
-	position: relative;
-	z-index: 99;
-}
-#menu-primary .menu { float: right; }
-#menu-primary .menu ul { float: right; }
-#menu-primary li {
-	display: block;
-	font-family: Georgia;
-	float: left;
-	min-height: 30px;
-}
-#menu-primary li a {
-	font-family: Kurale;
-	font-size: 14px;
-	line-height: 1em;
-	margin-left: 3.5em;
-	display: block;
-	text-transform: uppercase;
-	
-}
-#menu-primary li.current-menu-item a { color: #aaa; }
-#menu-primary li li, #menu-primary li li.current-menu-item li {
-	clear: both;
-	float: none;
-	border-top: 1px dotted #e5e5e5;
-}
-#menu-primary li li:first-child, #menu-primary li li.current-menu-item li:first-child { border-top: none; }
-#menu-primary li li a, #menu-primary li li.current-menu-item li a {
-	font-size: 1em;
-	text-transform: none;
-	color: #888;
-	margin: 0 5px;
-	padding: 12px 15px;
-}
-#menu-primary ul li a:hover, #menu-primary li ul li a:hover { color: #222; }
-
 #footer {
 	overflow: hidden;
 	clear: both;

@@ -20,21 +20,14 @@
 						<a href="https://amnesiacky.github.io" title="QA Country" rel="Home">
 							<img height="150" width="150" class = "logo" src="https://amnesiacky.github.io/media/QA Pirates Logo.png" alt="QA Pirates">
 						</a>
-					</h1>	
+					</h1>				
 				</div>
 				<div id="menu-primary" class="menu-container">
 					<div class="menu">
-						<ul id="menu-primary-items" class="sf-js-enabled">
-							<li id="menu-item-1" class="menu-home">
-								<a title="Главная" href="https://amnesiacky.github.io" aria-current="page">Главная</a>
-							</li>
-							<li>
-								<a title="О нас" href="https://amnesiacky.github.io/AboutUs" aria-current="page">О нас</a>
-							</li>
-							<li>
-								<a title="Контакты" href="https://amnesiacky.github.io/Contacts" aria-current="page">Контакты</a>
-							</li>
-						</ul>
+						<nav class="nav flex-column">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">About Us</a>
+						  </nav>
 					</div>
 				</div>
 				<h2 id="site-description">
@@ -64,8 +57,8 @@
 					  <span class="visually-hidden">Следующий</span>
 						</button>
 					</div>
-				</div>
-				<hr>	
+			</div>
+			<hr>	
 			<div id="footer">
 				<div class="fotter-content">
 					<p>					
@@ -77,15 +70,22 @@
 			</div>
 		</div>
 	</div>
-	<div>
-
-	</div>
 	<style>
 		body {
 			padding-top: 100px;
+			background-image: url(media/background-img.jpg);
+			background-attachment: scroll;
+			background-repeat: no-repeat;
+			background-position: top center;
 		}
 		canvas {
-    		cursor: url(sword.png) 53 53, crosshair;
+    		cursor: url(/media/navCursor.ico) 53 53, crosshair;
+		}	
+		html{
+			background-image: url(media/background-img.jpg);
+			background-attachment: scroll;
+			background-repeat: no-repeat;
+			background-position: top center;
 		}		
 	</style>
 </body>
