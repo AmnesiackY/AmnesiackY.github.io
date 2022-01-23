@@ -14,7 +14,12 @@
     <meta name="generator" content="Nicepage 4.3.3, nicepage.com">
     <link rel="icon" href="images/favicon.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
     
     
     
@@ -63,19 +68,19 @@
       </div><style class="u-sticky-style" data-style-id="95e6">.u-sticky-fixed.u-sticky-95e6:before, .u-body.u-sticky-fixed .u-sticky-95e6:before {
 borders: top right bottom left !important
 }</style></header>
-    <section class="u-align-center u-clearfix u-section-1" id="sec-8118">
+    <section class="u-align-center u-black u-clearfix u-section-1" id="sec-8118">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1"> You've found the Easter egg!</h2>
+        <a href="123" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-1">Click me!</a>
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
-              <div class="u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-1" data-href="https://nicepage.app">
-                <div class="u-container-layout u-container-layout-1">
-                  <p class="u-align-center u-text u-text-default u-text-2">Click me!</p>
+              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-1" data-href="https://nicepage.app">
+                <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="images/2663068.png" alt=""></span>
                 </div>
               </div>
               <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
+                <div class="u-container-layout u-valign-bottom u-container-layout-2">
                   <div class="u-align-center u-countdown u-countdown-1" data-timer-id="2694" data-type="to-time" data-target-date="Tue, 25 Jan 2022 10:00:01 GMT" data-for="everyone" data-direction="down" data-time-left="750m" data-target-number="100" data-start-time="Sun Jan 23 2022 23:37:55 GMT+0200 (Восточная Европа (зима))" data-frequency="1s" data-after-count="none" data-redirect-url="https://">
                     <div class="u-countdown-wrapper u-spacing-20">
                       <div class="u-countdown-item u-countdown-years u-hidden u-spacing-10">
@@ -114,19 +119,17 @@ borders: top right bottom left !important
                   </div>
                 </div>
               </div>
-              <div class="u-container-style u-layout-cell u-right-cell u-size-20 u-layout-cell-3">
+              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-layout-cell-3">
                 <div class="u-container-layout u-container-layout-3">
-                  <p class="u-align-center u-text u-text-default u-text-3">And click here!</p>
+                  <a href="123" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-2"> And click here!</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <p class="u-text u-text-default u-text-4">And here too!<span style="font-size: 1.5rem;"></span>
-        </p>
-        <p class="u-hover-feature u-text u-text-body-alt-color u-text-5">It's last!)</p>
+        <a href="123" id="click" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-3">And here to!</a>
+        <a href="123" id="click1" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-4" data-animation-name="slideIn" data-animation-duration="1000" data-animation-direction="Down">that last!</a>
       </div>
-      
     </section>
     
     
@@ -134,7 +137,36 @@ borders: top right bottom left !important
     
     <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-854b"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-hover-feature u-small-text u-text u-text-variant u-text-1" data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X"> "Пиратское сообщество [QA Pirates] - лендинг сайт, который теперь является летописью нашей истории!"</p>
-        <p class="u-text u-text-2">Created by Amne</p>
+        <p class="u-text u-text-2">
+          <script>
+            var chr = -1;
+            var txt = '© 1989-2022 Amne Corporate<br>Aboba Gang and others'
+            var l = txt.length
+            var p = "_"
+            function changetext()
+            {
+            chr++;
+            t = document.all["text"].innerHTML
+            tt = t.substring(0,t.length-p.length)
+            if(txt.charAt(chr)!="<")
+            {
+            document.all["text"].innerHTML= tt + txt.charAt(chr) + p
+            }
+            else {
+            document.all["text"].innerHTML= tt + txt.substring(chr, chr+4) + p
+            chr=chr+3
+            }
+            setTimeout("changetext()", 90)
+            }
+            function str(num) {
+            var s = ""
+            for(i=0; i<num; i++)
+            { s = s + " " }
+            return s }
+          </script>            
+            <body onload="changetext()">
+            <font id="text"></font>
+        </p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
@@ -147,5 +179,15 @@ borders: top right bottom left !important
         <span>Website Builder Software</span>
       </a>. 
     </section>
+    <script>
+      $('#click').on('click', function(){
+          Swal.fire({
+                          title: 'Error!',
+                          text: 'Do you want to continue',
+                          icon: 'error',
+                          confirmButtonText: 'Cool'
+                  })
+      })
+</script>
   </body>
 </html>

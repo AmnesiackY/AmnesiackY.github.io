@@ -84,7 +84,36 @@ background-color: #000000 !important
     
     <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-854b"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-hover-feature u-small-text u-text u-text-variant u-text-1" data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X"> "Пиратское сообщество [QA Pirates] - лендинг сайт, который теперь является летописью нашей истории!"</p>
-        <p class="u-text u-text-2">Created by Amne</p>
+        <p class="u-text u-text-2">
+          <script>
+            var chr = -1;
+            var txt = '© 1989-2022 Amne Corporate<br>Aboba Gang and others'
+            var l = txt.length
+            var p = "_"
+            function changetext()
+            {
+            chr++;
+            t = document.all["text"].innerHTML
+            tt = t.substring(0,t.length-p.length)
+            if(txt.charAt(chr)!="<")
+            {
+            document.all["text"].innerHTML= tt + txt.charAt(chr) + p
+            }
+            else {
+            document.all["text"].innerHTML= tt + txt.substring(chr, chr+4) + p
+            chr=chr+3
+            }
+            setTimeout("changetext()", 90)
+            }
+            function str(num) {
+            var s = ""
+            for(i=0; i<num; i++)
+            { s = s + " " }
+            return s }
+          </script>            
+            <body onload="changetext()">
+            <font id="text"></font>
+        </p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
