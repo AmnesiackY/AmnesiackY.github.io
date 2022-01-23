@@ -41,13 +41,14 @@
 					</div>
 				</div>
 				<h2 id="site-description">
-					<span>Этот сайт захватили QA Pirate's! Всем оставаться на своих бочках и мы никого не тронем!</span>
+					<span>Этот сайт захватили QA Pirate's! Ещё один сайт в нашем распоряжении!</span>
 				</h2>
 			</div>	 
 			<div id="main">
 				<hr>
 				<div id="content">
 					<div class="hfeed">
+						<img id="banner2" src="media/mem.gif" hspace="150" height="800" width="500"  class="img-fluid" alt="banner2">
 						<p>AbobaAbobaAbobaAbobaAbobaAbobaAboba</p>
 						<p>AbobaAbobaAbobaAbobaAbobaAbobaAboba</p>
 						<p>AbobaAbobaAbobaAbobaAbobaAbobaAboba</p>
@@ -68,10 +69,28 @@
 				</div>
 			</div>
 			<div id="footer">
-				
+				<div class="fotter-content">
+					<p>					
+						<br>
+						"Пиратское сообщество [QA Pirates] - лендинг сайт, который теперь является летописью нашей истории!"
+						<br>						
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
+	<script>
+		function message(){
+			Swal.fire('Any fool can use a computer')
+		}
+		function oops(){
+			Swal.fire({
+ 				icon: 'error',
+  				title: 'Oops...',
+ 				text: 'Something went wrong!',
+		})
+		}
+	</script>
 	<style>
 		body {
 			padding-top: 100px;
@@ -84,6 +103,9 @@
 		canvas {
     		cursor: url(/media/navCursor.ico) 53 53, crosshair;
 		}	
+		img#banner2{
+			align-items: middle;
+		}
 		html{
 			background-image: url(media/background-img.jpg);
 			background-attachment: scroll;
