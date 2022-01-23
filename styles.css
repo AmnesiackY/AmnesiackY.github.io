@@ -1,20 +1,31 @@
-html{
-    background-image: url(media/background-image.jpg);
-    cursor: url(https://amnesiacky.github.io/media/navcursor.ico),url(https://amnesiacky.github.io/media/sword.png) 53 53;
-    font-size: 1em;	/* 16px */
-	overflow-y: scroll;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-
 body {
-	margin: 0;
-	font-family: Lucida Sans Unicode, serif;
-	font: 0.8125em/1.692307em Lucida Sans Unicode, serif;	/* 13 / 16 = 0.8125;  22 / 13 = 1.692307 */
-	color: #555;
-	background: #fff;
-	padding: 0;
-	cursor: url(https://amnesiacky.github.io/media/navcursor.ico),url(https://amnesiacky.github.io/media/sword.png) 53 53,  default;
+	padding-top: 100px;
+	background-image: url(media/background-img.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+canvas {
+	cursor: url(/media/navCursor.ico) 53 53, crosshair;
+}	
+html{
+	background-image: url(media/background-img.jpg);
+	background-attachment: scroll;
+	background-repeat: repeat;
+	background-position: top center;
+}	
+button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+ padding: 10px;
+  border-radius: 8px;
+ font-family: 'Lato';
+  margin: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
 }
 
 #main {
