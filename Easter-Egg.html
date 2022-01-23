@@ -70,8 +70,8 @@ borders: top right bottom left !important
 }</style></header>
     <section class="u-align-center u-black u-clearfix u-section-1" id="sec-8118">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1"> You've found the Easter egg!</h2>
-        <a href="123" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-1">Click me!</a>
+        <h2 id="click" class="u-text u-text-default u-text-1"> You've found the Easter egg!</h2>
+        <a id="click1" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-1">Click me!</a>
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
@@ -121,14 +121,14 @@ borders: top right bottom left !important
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-layout-cell-3">
                 <div class="u-container-layout u-container-layout-3">
-                  <a class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-2"> And click here!</a>
+                  <a id="click2" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-2"> And click here!</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <a id="click" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-3">And here to!</a>
-        <a  id="click1" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-4" data-animation-name="slideIn" data-animation-duration="1000" data-animation-direction="Down">that last!</a>
+        <a id="click3" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-3">And here to!</a>
+        <a  id="click4" class="u-align-center u-black u-border-4 u-border-hover-palette-3-base u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-50 u-btn-4" data-animation-name="slideIn" data-animation-duration="1000" data-animation-direction="Down">that last!</a>
       </div>
     </section>
     
@@ -181,6 +181,38 @@ borders: top right bottom left !important
     </section>
     <script>
       $('#click').on('click', function(){
+          Swal.fire({
+                          title: 'Error!',
+                          text: 'Do you want to continue',
+                          icon: 'error',
+                          confirmButtonText: 'Cool'
+                  })
+      })
+      $('#click1').on('click', function(){
+          Swal.fire({
+                          title: 'Error!',
+                          text: 'Do you want to continue',
+                          icon: 'error',
+                          confirmButtonText: 'Cool'
+                  })
+      })
+      $('#click2').on('click', function(){
+          Swal.fire({
+                          title: 'Error!',
+                          text: 'Do you want to continue',
+                          icon: 'error',
+                          confirmButtonText: 'Cool'
+                  })
+      })
+      $('#click3').on('click', function(){
+          Swal.fire({
+                          title: 'Error!',
+                          text: 'Do you want to continue',
+                          icon: 'error',
+                          confirmButtonText: 'Cool'
+                  })
+      })
+      $('#click4').on('click', function(){
           Swal.fire({
                           title: 'Error!',
                           text: 'Do you want to continue',
